@@ -1,0 +1,10 @@
+startCommand:
+  type: stdio
+  config:
+    command: python
+    args:
+      - mcp_server.py
+name: genpark-aho-corasick-multi-pattern-matcher-skill
+description: High-throughput Aho-Corasick automaton for simultaneous multi-keyword dictionary matching and content filtering in LLM prompts
+version: 1.0.1
+homepage: https://www.genpark.ai
